@@ -11,13 +11,12 @@ uintptr_t GameBase = 0;
 namespace Offsets
 {
 	// Global Arrays
-	int GWorld = 0x12BC1FD0;
-	int GObjects = 0x12B99C10;
-	int GNames = 0x12D85B40;
-
+	 int GWorld = 0x12ED8E38;   // Updated UWorld offset
+    int GObjects = 0x12E4DF88; // Updated GObjects offset
+    int GNames = 0x12EFC740;   // Updated GNames offset
 	// Functions
-	int StaticFindObject = 0x16CC96C;
-	int GetBoneMatrix = 0x19A205C;
+	int StaticFindObject = 0x1DE185C;
+	int GetBoneMatrix = 0x1E4E8E6;
 	int Fire = 0x285D0DC;
 	
 	// visuals
